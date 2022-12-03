@@ -2,3 +2,28 @@
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  background-color: aquamarine;
+  padding: 5px;
+  text-align: center;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: red;
+  opacity: 0.8;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px;
+  height: 30px;
+}
+
+.headLink:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
