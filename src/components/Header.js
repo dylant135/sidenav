@@ -24,7 +24,6 @@ export default function Header(props) {
                 backgroundColor: props.active === 'About' ? 'green' : 'transparent'
               }}
             >About</div>
-            <div className="headLink">link3</div>
         </div>
     )
 }

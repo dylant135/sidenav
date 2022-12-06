@@ -11,7 +11,10 @@ function App() {
     <div className="App">
       <h1>Side Nav</h1>
       <div className='navContainer'>
-        <Sidebar />
+        <Sidebar
+          active={active}
+          setActive={setActive}
+        />
         <div className='rightContainer'>
           <Header
             active={active}

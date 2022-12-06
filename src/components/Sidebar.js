@@ -1,11 +1,15 @@
 import React from "react";
 
-export default function Sidebar() {
+export default function Sidebar(props) {
+
     return (
         <div className="sidebar">
-            <div className="sideInfo">hi</div>
-            <div className="sideInfo">bye</div>
-            <div className="sideInfo">why</div>
+            {props.active === 'Home' && <div className="sideInfo">
+                <h2 className="sideHeader">Home</h2>
+            </div>}
+            {props.active === 'About' && <div className="sideInfo">
+                <h2 className="sideHeader">About</h2>
+            </div>}
         </div>
     )
 }
